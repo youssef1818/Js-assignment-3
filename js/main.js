@@ -33,7 +33,7 @@ function display() {
                     <p class="mb-0 text-center">${sitesArray[i].name}</p>
                 </div>
                 <div class="col-3 text-center">
-                   <a href="${sitesArray[i].URL}"> <button type="button " class="btn btn-success "> <i class="fa-regular fa-eye"></i> Visit</button></a>
+                   <a href="${sitesArray[i].URL}"target="blank">  <button type="button " class="btn btn-success "> <i class="fa-regular fa-eye"></i> Visit</button></a>
                 </div>
                 <div class="col-3 text-center">
                     <button type="button " class="btn btn-danger" onclick="Delete(${i})"><i class="fa-solid fa-trash"></i> Delete</button>
